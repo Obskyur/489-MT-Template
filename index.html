@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./style.css" />
+		<script defer src="./script.js"></script>
+	</head>
+	<body>
+		<nav class="navbar">
+      <div class="img-container">
+          <img src="https://picsum.photos/seed/picsum/536/354" alt="Logo" id="nav-img">
+      </div>
+      <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+      </ul>
+  </nav>
+		<div class="container">
+      <nav class="sidebar">
+            <ul class="sidebar__list">
+              <li><a class="sidebar__list_item" href="">Home</a></li>
+              <li><a class="sidebar__list_item" href="">About</a></li>
+              <li><a class="sidebar__list_item" href="">Contact</a></li>
+            </ul>
+      </nav>
+      <main class="main">
+        <h1 class="main__title">[Title]</h1>
+        <p class="main__content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium illum veniam quae soluta tenetur. Quasi illum non rerum expedita itaque
+          dolor doloribus incidunt, praesentium adipisci quisquam commodi nobis fugiat rem?
+        </p>
+        <form id="myForm" onsubmit="return validateForm()">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+          <span id="nameError" style="color: red"></span>
+          <br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+          <span id="emailError" style="color: red"></span>
+          <br />
+          <button type="submit">Submit</button>
+        </form>
+        <img class="main__img" src="https://s3.wp.wsu.edu/uploads/sites/908/2023/01/Kandaswamy-square-396x396.png" alt="Subu" />
+      </main>
+    </div>
+		<footer class="footer">
+			<span class="footer__copyright">&copy; Copyright WSU 2025</span>
+      <div class="footer__social">
+        <a class="footer__social_link" href="">Facebook</span>
+        <a class="footer__social_link" href="">Twitter</span>
+        <a class="footer__social_link" href="">Instagram</span>
+      </div>
+		</footer>
+	</body>
+</html>
